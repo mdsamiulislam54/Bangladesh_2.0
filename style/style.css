@@ -202,7 +202,7 @@ header > nav >a:hover{
     margin: 20px 0px;
 }
 .qoute_text{
-    background-image: url(/assets/quote-bg.png);
+    background-image: url(../assets/quote-bg.png);
     background-position: top left;
     background-repeat: no-repeat;
 }
@@ -217,4 +217,51 @@ header > nav >a:hover{
     font-weight: bold;
 }
 
+/* qoute card styles end ...........*/
 
+/* question card styles start ...........*/
+.qustion_header{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+.question_part{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    border : 1px solid #ddd;
+   
+}
+
+
+thead th {
+    background-color:var(--background-color);
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+.start_border {
+    border-left: 2px solid #000;
+}
+.end_border {
+    border-right: 2px solid #000;
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+select {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    background-color: var(--background-color);
+}
