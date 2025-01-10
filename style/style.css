@@ -239,7 +239,7 @@ table {
 }
 
 
-thead > th {
+thead th {
     background-color:var(--background-color);
     padding: 10px;
     font-weight: bold;
@@ -253,7 +253,7 @@ thead > th {
     border-right: 2px solid #000;
 }
 
-tbody > td {
+tbody  td {
     padding: 10px;
     border-bottom: 1px solid #ddd;
 }
