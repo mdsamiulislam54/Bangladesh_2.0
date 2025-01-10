@@ -10,12 +10,17 @@
 
 body{
     font-family: 'Fira Sans', sans-serif;
+    background-color: #f1f1f3;
 }
 a, li{
     list-style: none;
     text-decoration: none;
 }
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    font-weight: 400;
 
+}
 :root {
     --primary-color:#F7EBCF ;
     --secondary-color: #5490F5;
@@ -29,3 +34,71 @@ a, li{
     max-width: 1200px;
     margin: 0 auto;
 }
+
+header > nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+header > nav >h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+header > nav >a{
+    padding: 10px 20px;
+    background-color:white ;
+    color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+    text-align: center;
+    font-weight: 800;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: all linear 0.3s;
+}
+header > nav >a:hover{
+    background-color: var(--secondary-color);
+    color:white
+}
+/* navbar area end..............  */
+
+/* Banner part start........... */
+
+.banner_area{
+    background-color: var(--background-color);
+    padding: 20px 30px;
+    border-radius: 10px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.banner_text > h3{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.584);
+    margin-bottom: 10px;
+}
+.banner_text > h1{
+    font-size: 50px;
+    font-weight: bold;
+    
+    margin-bottom: 30px;
+}
+.banner_text > a{
+    font-size: 18px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: var(--button-bg-color);
+    color: #fff;
+    border-radius: 10px;
+   transition: all linear 0.5s; 
+}
+.banner_text > a:hover{
+    background-color: #fff;
+    color: var(--button-bg-color);
+}
+
+
+/* banner part end ...............  */
+
