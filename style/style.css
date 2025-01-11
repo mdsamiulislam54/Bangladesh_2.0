@@ -349,6 +349,7 @@ table tr td {
     justify-content: center;
     align-items: center;
     padding: 50px;
+    position: relative;
 
   
 }
@@ -400,5 +401,29 @@ table tr td {
 .donate_container > a:hover{
    background-color: red;
    color: #fff;
+}
+.donate_container::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 4px;
+    background-color: red;
+}
+.active{
+    background-color: red;
+    color: #fff;
+}
+.donate_container::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 4px;
+    background-color: red;
 }
 /* donate container styles  end ..........*/
