@@ -265,3 +265,80 @@ select {
     font-size: 14px;
     background-color: var(--background-color);
 }
+table tr td {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+
+/* question part end.......... */
+/* recent news part start.......... */
+
+.news_title > h2{
+    font-size: 40px;
+    font-weight: 800;
+    margin: 20px 0px;
+}
+.news_title > p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+.news_parent_container{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.news_content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+}
+.news_images img{
+    border-radius: 20px;
+   
+}
+.news_content img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.news_content > h3{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.time_text{
+   color: rgba(0, 0, 0, 0.731);
+   font-size: 16px;
+   font-weight: normal;
+   margin-bottom: 20px;
+}
+.news_content > p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.731);
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.news_content > a{
+    font-size: 18px;
+    padding: 10px 20px;
+    display: inline-block;
+    width: 160px;
+    text-align: center;
+    background-color: var(--button-bg-color);
+    color: #fff;
+    border-radius: 10px;
+   transition: all linear 0.5s; 
+}
+.news_content > a:hover{
+    
+    color: #ff0000;
+    
+}
