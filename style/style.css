@@ -476,3 +476,34 @@ table tr td {
 .input_button_container> button:hover{
     background-color: red;
 }
+/* newsletter styles end .............*/
+
+/* footer section styles start ............. */
+
+.footer_container{
+    background-color: #fff;
+    padding: 50px;
+    margin-top: 30px;
+}
+.footer_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.footer_text{
+    border-bottom: 2px solid #ddd;
+    width: 100%;
+    display: inline;
+}
+.footer_text > h2{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footer_img{
+    margin: 0px 10px;
+}
