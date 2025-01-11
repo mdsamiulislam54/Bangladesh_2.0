@@ -427,3 +427,52 @@ table tr td {
     background-color: red;
 }
 /* donate container styles  end ..........*/
+
+/* news letter styles start .............*/
+.newsletter_section{
+    background-color: var(--background-color);
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+.newsletter_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+.newsletter_container > h2{
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.newsletter_container > p{
+    margin: 20px 0px;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.744);
+}
+.input_button_container{
+    display: flex;
+}
+.input_button_container > input{
+    padding: 10px;
+    width: 500px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    outline: none;
+}
+.input_button_container> button{
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: var(--button-bg-color);
+    color: #fff;
+    transition: all linear 0.3s;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.input_button_container> button:hover{
+    background-color: red;
+}
