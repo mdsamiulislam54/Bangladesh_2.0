@@ -472,6 +472,7 @@ table tr td {
     border: none;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    cursor: pointer;
 }
 .input_button_container> button:hover{
     background-color: red;
@@ -506,4 +507,6 @@ table tr td {
 }
 .footer_img{
     margin: 0px 10px;
+    cursor: pointer;
 }
+/* footer section styles end ............. */
